@@ -1,0 +1,16 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Publisher extends Model
+{
+    //
+    protected $table="publishers";
+    protected $fillable=['name','address','email','phone','account'];
+
+    public function Book(){
+        return $this->hasMany('App\Book','id');
+    }
+}
