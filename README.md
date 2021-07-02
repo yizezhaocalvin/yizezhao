@@ -1,7 +1,7 @@
 101103310
 yize zhao
 
-i am using teh laravel structure to do this project and also mysql 
+i am using the laravel structure to do this project and also mysql 
 
 the level of php is required to be greater 7.0
 
